@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>page design</title>
+    <script src="https://kit.fontawesome.com/a71a53dd6d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <form action="">
+        <label for="fname"><b>Name</b><span style="color:#ff0000">*</span></label> <br>
+        <input type="text" name="firstname" required> <input type="text" name="lastname" required><br>
+        <label for="#" style="font-size: 12px">First</label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <label for="#" style="font-size: 12px">Last</label>
+        <br>
+        <br>
+        <label for="email"><b>Email</b><span style="color:#ff0000">*</span></label> <br>
+        <input type="email" name="email" size="45" required><br>
+        <br>
+        <b>Your Experience<span style="color:#ff0000">*</span></b>
+        
+        <div class="rating-css">
+        <div class="star-icon">
+            <input type="radio" id="rating-5" name="rating1">
+            <label for="rating-5" class="fas fa-star"></label>
+            <input type="radio" id="rating-4" name="rating1">
+            <label for="rating-4" class="fas fa-star"></label>
+            <input type="radio" id="rating-3" name="rating1">
+            <label for="rating-3" class="fas fa-star"></label>
+            <input type="radio" id="rating-2" name="rating1">
+            <label for="rating-2" class="fas fa-star"></label>
+            <input type="radio" id="rating-1" name="rating1">
+            <label for="rating-1" class="fas fa-star"></label>
+        </div>
+        </div>
+        
+        <p style="font-size: 12px">Overall how would you rate experience with us </p>
+
+        <label for="#"><b>How satisfied are you with</b><span style="color:#ff0000">*</span></label>
+        <br>
+        <br>
+
+        
+        <table border="0" width="100%" cellpadding="6">
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <tr>
+                <td align="center">&nbsp</td>
+                <td align="center">Very unsatisfied</td>
+                <td align="center">Unsatisfied</td>
+                <td align="center">Nuetral</td>
+                <td align="center">Satisfied</td>
+                <td align="center">Very Satisfied</td>
+            </tr>
+
+            <tr bgcolor="lightgray">
+                <td>Purchase</td>
+                <td align="center"><input type="radio" name="purchase"></td>
+                <td align="center"><input type="radio" name="purchase"></td>
+                <td align="center"><input type="radio" name="purchase"></td>
+                <td align="center"><input type="radio" name="purchase"></td>
+                <td align="center"><input type="radio" name="purchase"></td>
+            </tr>
+
+            <tr>
+                <td>Service</td>
+                <td align="center"><input type="radio" name="service"></td>
+                <td align="center"><input type="radio" name="service"></td>
+                <td align="center"><input type="radio" name="service"></td>
+                <td align="center"><input type="radio" name="service"></td>
+                <td align="center"><input type="radio" name="service"></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Company Overall</td>
+                <td align="center"><input type="radio" name="company"></td>
+                <td align="center"><input type="radio" name="company"></td>
+                <td align="center"><input type="radio" name="company"></td>
+                <td align="center"><input type="radio" name="company"></td>
+                <td align="center"><input type="radio" name="company"></td>
+            </tr>
+        </table>
+
+<br>
+<br>
+        <label for="#"><b>How likely are you with to</b><span style="color:#ff0000">*</span></label>
+        <table border="0" width="100%" cellpadding="6">
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <col style="width: 16%;" />
+            <tr>
+                <td align="center">&nbsp</td>
+                <td align="center">Very unlikely</td>
+                <td align="center">Unlikely</td>
+                <td align="center">Nuetral</td>
+                <td align="center">likely</td>
+                <td align="center">Very likely</td>
+            </tr>
+
+            <tr bgcolor="lightgray">
+                <td>Buy from us again</td>
+                <td align="center"><input type="radio" name="buy"></td>
+                <td align="center"><input type="radio" name="buy"></td>
+                <td align="center"><input type="radio" name="buy"></td>
+                <td align="center"><input type="radio" name="buy"></td>
+                <td align="center"><input type="radio" name="buy"></td>
+            </tr>
+
+            <tr >
+                <td>Recommend our product to others</td>
+                <td align="center"><input type="radio" name="recommend"></td>
+                <td align="center"><input type="radio" name="recommend"></td>
+                <td align="center"><input type="radio" name="recommend"></td>
+                <td align="center"><input type="radio" name="recommend"></td>
+                <td align="center"><input type="radio" name="recommend"></td>
+            </tr>
+            <tr bgcolor="lightgray">
+                <td>Recommend our company to others</td>
+                <td align="center"><input type="radio" name="recommend1"></td>
+                <td align="center"><input type="radio" name="recommend1"></td>
+                <td align="center"><input type="radio" name="recommend1"></td>
+                <td align="center"><input type="radio" name="recommend1"></td>
+                <td align="center"><input type="radio" name="recommend1"></td>
+            </tr>
+        </table>
+<br>
+<label for="#"><b>Additional comments or Suggestions:</b></label>
+<br>
+<textarea name="comments" id="comments" cols="200" rows="5"></textarea>
+<br>
+<br>
+<input type="submit" class="button" value="Submit">
+    
+    </form>
+</body>
+</html>
